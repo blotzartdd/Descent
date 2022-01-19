@@ -11,7 +11,7 @@ class Portal(pygame.sprite.DirtySprite):
                                             (portal_image.get_width() * 1.5,
                                              portal_image.get_height() * 1.5))
         self.rect = self.image.get_rect(topleft=pos)
-        self.visible = 1
+        self.visible = 0
 
         # animation
         self.frame_index = 0
